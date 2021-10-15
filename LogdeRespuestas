@@ -1,0 +1,14 @@
+¿Cuando se ha producido el problema por primera vez?
+Si el problema viene produciéndose desde hace un tiempo, y si se ha implementado una planificación de supervisor de bases de datos, puede utilizar los datos históricos para analizar las diferencias. Esto le permitirá centrarse en los cambios de comportamiento que presenta el sistema y, de este modo, centrarse en los cambios introducidos. Utilice Herramientas de supervisión proactivas. También debe considerar si se han producido cambios recientes, como actualizaciones de hardware o software, el despliegue de una nueva aplicación o la adición de usuarios.
+
+¿El problema de rendimiento es constante o intermitente?
+Si el bajo rendimiento es continuo, compruebe si el sistema ha empezado a gestionar una gran carga de trabajo o si un recurso de base de datos compartido se ha convertido en un cuello de botella. Otras posibles causas de degradación del rendimiento pueden ser un aumento de la actividad de los usuarios, el uso de varias aplicaciones de gran tamaño o la eliminación de dispositivos de hardware. Si rendimiento es pobre sólo durante períodos de tiempo breves, empiece a buscar las aplicaciones o programas de utilidad comunes que se ejecutan durante dichos períodos. Si los usuarios indican que un grupo de aplicaciones experimentan problemas de rendimiento, puede iniciar su análisis centrándose en dichas aplicaciones.
+
+¿El problema parece ser de todo el sistema o limitado a WebSphere Service Registry and Repository (WSRR) y sus aplicaciones?
+Los problemas de rendimiento de todo el sistema sugieren que el problema se encuentra fuera de WSRR. Es posible que deba investigarse algún problema en el nivel de sistema operativo.
+
+Si un problema está aislado en una aplicación, ¿hay alguna consulta determinada que parezca ser la causa de problema?
+Si una aplicación parece ser la causa del problema, puede evaluar si los usuarios notifican que una consulta es lenta o varias consultas son lentas. Es posible que pueda aislar el problema en una aplicación y en un posible grupo de consultas.
+
+¿Observa algunas características comunes en el bajo rendimiento del sistema o parece que los problemas son aleatorios?
+Puede determinar si hay objetos comunes (como tablas de base de datos, espacio de tablas o índices) implicados en el problema. En tal caso, ello sugiere que estos objetos son un punto de contención. Otras áreas en las que posiblemente pueda centrarse son las restricciones de integridad referencial, cascadas de claves foráneas y problemas de bloqueo.
