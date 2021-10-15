@@ -1,0 +1,4 @@
+Octubre 6
+¿El problema parece ser de todo el sistema o limitado a los procesos de memoria y la Aplicacion o tambien incluye los modulos de disco?
+Los problemas de rendimiento de todo el sistema sugieren que el problema se encuentra fuera del buffer de memoria temporal. Es posible que deba investigarse algún problema en el nivel de sistema operativo y file sistems, para determinar si este afecta el rendimiento y que este generando el cuello de botella.
+Se vé que esto esta ocasionando un retraso en la ejecución de las consultas.

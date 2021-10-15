@@ -1,0 +1,3 @@
+Octubre 7
+Si un problema está aislado en una aplicación, ¿hay alguna consulta determinada que parezca ser la causa de problema?
+Si, se observan identificadas ciertas consultas que al ser ejecutadas durante los procesos de rutinas parecen ser la causa del problema, se puede tratar de replicar dicho escenario en ambiente de pruebas con usuarios conectados donde se puede evaluar si los usuarios notifican que una consulta es lenta o varias consultas son lentas identificadas al ambito especifico de la funcionalidad en cuestion. Es posible que pueda aislar el problema en la aplicación y en un posible grupo de consultas.

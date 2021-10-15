@@ -1,0 +1,3 @@
+Octubre 4
+¿Cuando se ha producido el problema por primera vez?
+Si el problema viene produciéndose desde hace un tiempo, y si se ha implementado una planificación de supervisor de bases de datos, puede utilizar los datos históricos para analizar las diferencias. Esto permitirá centrarse en los cambios de comportamiento que presenta el sistema y, de este modo, centrarse en los cambios introducidos. Utilice Herramientas de supervisión proactivas. También debe considerar si se han producido cambios recientes, como actualizaciones de hardware o software, el despliegue de una nueva aplicación o la adición de usuarios.

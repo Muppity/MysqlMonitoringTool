@@ -1,0 +1,4 @@
+
+Octubre 12
+Se observan gran cantididad de transacciones provenientes del mismo cuerpo de procedimiento almacenado, el cual no se confirma sino hasta lograr completar todo
+el bloque operativo. Esto es un indicio de sobrecarga a la base de datos temporal y por lo mismo a la memoria intermedia, causando lentitud en la respuesta debido a un cuello de botella en las transaciones. Debe sugerirse realizar bloques atómicos que mejoren el uso de los objetos, principalmente en aquellos que son de uso compartido por varios procedimientos.

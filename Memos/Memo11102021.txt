@@ -1,0 +1,2 @@
+Octubre 11
+Se observan posibles multiples objetos cursores que se ejectan por cada carga de proceso, en el que se ientifican las actividades comunes de los Queries de la carga normal de operacciones, por lo que es un indicio de profundización de cambio de estrategia de uso de dichos objetos, o la creación de indices con particiones almacenadas agrupadas por fecha, que puedan beneficiar el uso de la carga de consultas.

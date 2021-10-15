@@ -1,0 +1,3 @@
+Octubre 8
+¿Observa algunas características comunes en el bajo rendimiento del sistema o parece que los problemas son aleatorios?
+Puede determinar si hay objetos comunes (como tablas de base de datos, espacio de tablas o índices) implicados en el problema. En tal caso, por lo que  sugiere que estos objetos son un punto de contención. Otras áreas en las que posiblemente pueda centrarse son las restricciones de integridad referencial, cascadas de claves foráneas y problemas de bloqueo.
