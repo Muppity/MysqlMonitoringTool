@@ -29,11 +29,19 @@ La búsqueda del análisis tiene como objeto una observación profunda del compo
 
 
 ![Atlas Findings](Pictures/Screenshot 2021-10-15 195634.png)
+
 ![Categories](Pictures/Screenshot 2021-10-15 233330.png)
+
 ![Categories](Pictures/Screenshot 2021-10-15 233302.png)
+
 ![Memo](Pictures/Screenshot 2021-10-15 233424.png)
+
 ![Lgs](Pictures/Screenshot 2021-10-15 233511.png)
+
 ![lgs](Pictures/Screenshot 2021-10-15 233414.png)
+
 ![Cat2](Pictures/Screenshot 2021-10-15 233343.png)
+
 ![Entities](Pictures/Screenshot 2021-10-15 210157.png)
+
 ![Filtering](Pictures/Screenshot 2021-10-15 200641.png)
