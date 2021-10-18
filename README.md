@@ -27,7 +27,6 @@ La búsqueda del análisis tiene como objeto una observación profunda del compo
 
 6) Una vez se obtuvieron los logs y los memos de observación, se procedio a cargarlos en la herramienta Atlas.ti donde se realizaron las ejecuciones de revisión de documento en búsqueda de patrones que condujeran a la codificación y las categorías asociadas.
 
-![](https://github.com/Muppity/MysqlMonitoringTool/blob/main/Pictures/Screen%20Shot%202021-10-15%20at%2011.42.13%20PM.png)
 
 ![Atlas Findings](./Pictures/Screenshot 2021-10-15 195634.png)
 
@@ -38,6 +37,9 @@ La búsqueda del análisis tiene como objeto una observación profunda del compo
 ![Memo](./Pictures/Screenshot 2021-10-15 233424.png)
 
 ![Lgs](./Pictures/Screenshot 2021-10-15 233511.png)
+
+![LogsView](https://github.com/Muppity/MysqlMonitoringTool/blob/main/Pictures/Screen%20Shot%202021-10-15%20at%2011.42.13%20PM.png)
+
 
 ![lgs](./Pictures/Screenshot 2021-10-15 233414.png)
 
