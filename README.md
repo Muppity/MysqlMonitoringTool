@@ -14,37 +14,57 @@ La búsqueda del análisis tiene como objeto una observación profunda del compo
 
 1) Creacion del escenario MySQL DB en Debian Linux
 
+![Installation](https://github.com/Muppity/MysqlMonitoringTool/blob/main/Pictures/finish-install_reboot_in_progress_0.png)
 
 
 2) Creación del contenedor con la configuración de RQDA en R version estable 3.
+2.1) Preparando las librerias
+
+![libraries](https://github.com/Muppity/MysqlMonitoringTool/blob/main/Pictures/Screenshot%20from%202021-10-06%2013-02-02.png)
+![lib2](https://github.com/Muppity/MysqlMonitoringTool/blob/main/Pictures/Screenshot%20from%202021-10-06%2013-33-30.png)
+![container1](https://github.com/Muppity/MysqlMonitoringTool/blob/main/Pictures/Screenshot%20from%202021-10-08%2018-28-02.png)
+
+
+2.1) Ejecutando el Container
+![](https://github.com/Muppity/MysqlMonitoringTool/blob/main/Pictures/Screenshot%20from%202021-10-08%2018-17-36.png)
 
 3) Se configuró un canal de Slack para guardar las observaciones a modo de etnografía cronológica de todo lo descrito.
-[Canal de Slack](https://app.slack.com/client/T0189P8RJJC/C017D6FULNS)
+![Canal de Slack](https://app.slack.com/client/T0189P8RJJC/C017D6FULNS)
 
 4) Se configuró un contenedor con la base de datos y el servicio de recepción monitoreo y transformación de mensajes.
+
+![LogsView](https://github.com/Muppity/MysqlMonitoringTool/blob/main/Pictures/Screen%20Shot%202021-10-15%20at%2011.42.13%20PM.png)
+
 
 5) Seguidamente se inicio con el proceso de captura de logs el cual ocurrió 1 vez por dia durante un periodo de 30 dias por varias horas hasta lograr el limite diseñado de 7000 entradas.
 
 6) Una vez se obtuvieron los logs y los memos de observación, se procedio a cargarlos en la herramienta Atlas.ti donde se realizaron las ejecuciones de revisión de documento en búsqueda de patrones que condujeran a la codificación y las categorías asociadas.
 
+![LogsAtlas](https://github.com/Muppity/MysqlMonitoringTool/blob/main/Pictures/Screenshot%202021-10-15%20233511.png)
 
-![Atlas Findings](./Pictures/Screenshot 2021-10-15 195634.png)
+6.1) Se hizo las cargas de los memos de el log de observación durante el laboratorio, como se muestra a continuación.
 
-![Categories](./Pictures/Screenshot 2021-10-15 233330.png)
+![Memo](https://github.com/Muppity/MysqlMonitoringTool/blob/main/Pictures/Screenshot%202021-10-15%20233424.png)
 
-![Categories](./Pictures/Screenshot 2021-10-15 233302.png)
+![AtlasMemos](https://github.com/Muppity/MysqlMonitoringTool/blob/main/Pictures/Screenshot%202021-10-15%20233414.png)
 
-![Memo](./Pictures/Screenshot 2021-10-15 233424.png)
+6.2) Se ejecuto el proceso de Atlas.TI para encontrar patrones y hallazgos para categorizar y agrupar
 
-![Lgs](./Pictures/Screenshot 2021-10-15 233511.png)
-
-![LogsView](https://github.com/Muppity/MysqlMonitoringTool/blob/main/Pictures/Screen%20Shot%202021-10-15%20at%2011.42.13%20PM.png)
+![Atlas Findings](https://github.com/Muppity/MysqlMonitoringTool/blob/main/Pictures/Screenshot%202021-10-15%20195634.png)
 
 
-![lgs](./Pictures/Screenshot 2021-10-15 233414.png)
+![Filtering](https://github.com/Muppity/MysqlMonitoringTool/blob/main/Pictures/Screenshot%202021-10-15%20200641.png)
 
-![Cat2](./Pictures/Screenshot 2021-10-15 233343.png)
+6.3) El proceso de Atlas.TI permitió la generación de las siguientes categorias detalladas a continuación
 
-![Entities](./Pictures/Screenshot 2021-10-15 210157.png)
+![Categories](https://github.com/Muppity/MysqlMonitoringTool/blob/main/Pictures/Screenshot%202021-10-15%20233330.png)
 
-![Filtering](./Pictures/Screenshot 2021-10-15 200641.png)
+
+![Categories](https://github.com/Muppity/MysqlMonitoringTool/blob/main/Pictures/Screenshot%202021-10-15%20233302.png)
+
+![Cat2](https://github.com/Muppity/MysqlMonitoringTool/blob/main/Pictures/Screenshot%202021-10-15%20233343.png)
+
+6.4) Asī mismo se muestran las entidades que se obtuvieron durante el proceso.
+![Entities](https://github.com/Muppity/MysqlMonitoringTool/blob/main/Pictures/Screenshot%202021-10-15%20210157.png)
+
+
