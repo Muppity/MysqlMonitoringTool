@@ -12,8 +12,9 @@ RUN	chmod 644 /usr/sql
 
 #ADD ["sql/sources.sql", "/usr/sql/sources.sql"]
 
-RUN /etc/init.d/mysql start && \
-		mysql -u root -p${MYSQL_ROOT_PASSWORD} -e "CREATE DATABASE testDB" \
+#RUN /etc/init.d/mysql start 
+#  && \
+#		mysql -u root -p${MYSQL_ROOT_PASSWORD} -e "CREATE DATABASE testDB" \
 #        mysql -u root -p${MYSQL_ROOT_PASSWORD} -e "CREATE DATABASE testDB" && \
 #    	mysql -u root -p${MYSQL_ROOT_PASSWORD} -D lba < /usr/sql/sources.sql && \
 #    	rm -rd /usr/sql && \
