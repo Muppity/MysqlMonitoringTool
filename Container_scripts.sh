@@ -10,4 +10,4 @@ docker ps -a
 
 
 #Removing code
-docker image rm 047b -f
+docker image rm imgmytests -f
