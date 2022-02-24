@@ -4,6 +4,6 @@ kubectl get nodes
 kubectl describe pod mydbpod
 kubectl run mydbpod --image=imgmytests
 
-kubectl create –f DB_Creation.yml
+kubectl create –f DB_Creation.yml --validate=false
 
 kubectl delete pod my_sql_testing

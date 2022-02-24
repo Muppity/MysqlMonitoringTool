@@ -1,6 +1,7 @@
 FROM mysql
 
 # Environment variables
+ENV MYSQL_USER Clopez
 ENV MYSQL_ROOT_PASSWORD Clave01*
 
 # Allows you to change the value of "max_allowed_packet"
