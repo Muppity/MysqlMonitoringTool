@@ -1,19 +1,29 @@
 #FROM mysql
 FROM 434c35b82b08
 # Environment variables
-ENV MYSQL_USER Clopez
-ENV MYSQL_ROOT_PASSWORD Clave01*
-ENV MYSQL_ALLOW_EMPTY_PASSWORD No
+ENV MYSQL_USER clopez
+ENV MYSQL_ROOT_PASSWORD 'Clave01*'
+ENV MYSQL_ALLOW_EMPTY_PASSWORD Yes
 ENV MYSQL_RANDOM_ROOT_PASSWORD No
 
+ENV REPLICATION_MASTER=False 
+ENV REPLICATION_SLAVE=False 
+#ENV REPLICATION_USER=replica 
+#ENV REPLICATION_PASS=replica
+
+#VOLUME ["/storage/mysql/data", “/var/lib/mysql”]
+#CMD ["/bin/bash","/startup.sh"]
+
+#RUN	sudo mkdir /usr/sql
+#RUN	sudo chmod 644 /usr/sql
+EXPOSE 3306/tcp
+
 COPY mysqlslap /usr/bin
+COPY user-setup.sql /usr/sql
 # Allows you to change the value of "max_allowed_packet"
 #ADD ["mysqlconf/gatewaymy.cnf", "/etc/mysql/conf.d/conf_mysql.cnf"]
-
 # Create Database
-RUN	mkdir /usr/sql
-RUN	chmod 644 /usr/sql
-EXPOSE 3306/tcp
+
 #ADD ["sql/sources.sql", "/usr/sql/sources.sql"]
 
 #RUN /etc/init.d/mysql start  && \

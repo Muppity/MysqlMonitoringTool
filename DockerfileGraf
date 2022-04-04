@@ -1,0 +1,13 @@
+#FROM mysql
+FROM 434c35b82b08
+# Environment variables
+ENV GF_SECURITY_ADMIN_PASSWORD__FILE /run/secrets/admin_password
+ENV GF_LOG_MODE console file
+#ENV REPLICATION_USER=replica 
+#ENV REPLICATION_PASS=replica
+
+#VOLUME ["/storage/mysql/data", “/var/lib/mysql”]
+#CMD ["/bin/bash","/startup.sh"]
+
+COPY grafana.ini /etc/grafana/grafana.ini
+

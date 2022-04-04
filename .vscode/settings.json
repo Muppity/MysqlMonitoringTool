@@ -89,10 +89,10 @@
             "server": "localhost",
             "port": 3306,
             "driver": "MySQL",
-            "name": "LocalTest01",
-            "database": "mysql",
+            "name": "LocalTest03",
             "username": "root",
-            "password": ""
+            "database": "mysql",
+            "password": "Clave01*"
         },
         {
             "mysqlOptions": {
@@ -102,10 +102,23 @@
             "server": "localhost",
             "port": 3306,
             "driver": "MySQL",
-            "name": "LocalTest03",
-            "username": "root",
+            "name": "LocalTest01",
             "database": "mysql",
+            "username": "root",
             "password": "Clave01*"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "LocalTest01",
+            "database": "mysql",
+            "username": "root",
+            "password": ""
         }
     ]
 }
