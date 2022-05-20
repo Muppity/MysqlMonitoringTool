@@ -1,5 +1,4 @@
-#FROM mysql
-FROM 434c35b82b08
+FROM grafana/grafana-oss-latest
 # Environment variables
 ENV GF_SECURITY_ADMIN_PASSWORD__FILE /run/secrets/admin_password
 ENV GF_LOG_MODE console file
@@ -10,4 +9,4 @@ ENV GF_LOG_MODE console file
 #CMD ["/bin/bash","/startup.sh"]
 
 COPY grafana.ini /etc/grafana/grafana.ini
-
+COPY foxlens_plugin_release /var/lib/grafana/plugins

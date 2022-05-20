@@ -50,7 +50,18 @@ docker run -d --name=graf_tests_ent \
   -e "GF_LOG_MODE=console file" \
   -e "GF_INSTALL_PLUGINS=grafana-clock-panel,grafana-simple-json-datasource" \
   grafana/grafana-enterprise
-  
+
+
+#Build a customed image
+docker run -d --name=graf_tests_ent \
+  -p 3000:3000 \
+  -e "GF_LOG_MODE=console file" \
+  -e "GF_INSTALL_PLUGINS=grafana-clock-panel,grafana-simple-json-datasource" \
+  img_graf_tests
+
+
+docker exec -it graf_tests_ent ls /var/lib/grafana/plugins/grafana-clock-panel
+
   #grafana/grafana-enterprise
   #-d grafana/grafana-enterprise
   --volume "/Volumes/Macintosh\ HDD1/GrafMon:/var/lib/grafana" \
