@@ -2,7 +2,7 @@
 #!/bin/bash bash
 #Create DB Image In Docker for database mysql engine
 echo 'Create DB Image In Docker for database mysql engine 💽 ';
-docker build --label 'img_my_tests2' -t imgmytests  -f Dockerfile  .
+docker build --label 'img_my_tests' -t imgmytests  -f Dockerfile  .
 
 #Obtaning an image for Grafana OSS
 echo 'Starting getting Grafana 💽';
