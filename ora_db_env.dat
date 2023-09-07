@@ -1,0 +1,4 @@
+DB_SID=orcl_prbs
+DB_PASSWD=Clave01*
+DB_DOMAIN=localhost
+DB_BUNDLE=basic
